@@ -1,0 +1,44 @@
+# Strings
+# # ' ',  " ", """ """
+
+# s = "Sample string"
+
+# print(type(s))
+
+# # 1 Strings are immutable
+ 
+# teststring = "Phython"
+# print(id(teststring))
+
+# teststring = "java"
+# print(id(teststring))
+
+# 2 String is Ordered data strukture - indexing and slicing
+
+# Indexing
+ # s = "test string"
+
+# print(s[0], s[1])
+# print(s[-1])
+
+
+
+# # slicing
+# s = "test sting in Phython"
+
+# print(s[0:4])
+# print(s[4:])
+# print(s[:4])
+
+# stride
+# s = "test sting in Phython"
+
+# print(s[::2])
+# print(s[::-1])
+
+s = "test sting in Phython"
+for value in s[::2]:
+	print(value)
+
+
+	help(str)
